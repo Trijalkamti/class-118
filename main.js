@@ -13,7 +13,7 @@ function clearCanvas() {
 
 function preload() {
 
-    background("white");
+    classifier = ml5.imageClassifier('DoodleNet');
 }
 
 function draw() {
